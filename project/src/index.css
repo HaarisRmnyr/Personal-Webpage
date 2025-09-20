@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: black;
-  
-
+body, html {
+  background-color: oklch(70.7% 0.022 261.325);
+  scroll-behavior: smooth;
 }
+
