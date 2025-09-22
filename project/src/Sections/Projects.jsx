@@ -10,11 +10,10 @@ function Projects() {
             <div className="flex flex-col md:flex-row md:justify-center md:space-x-8 w-full">
                 
                 {/* Project 1 */}
-                <div className="w-full md:w-1/3 mb-8 md:mb-0 p-4 bg-white rounded-lg shadow-md">
+                <div className="w-full md:w-1/3 mb-8 md:mb-0 p-4 bg-gray-700 rounded-lg shadow-md hover:scale-105 duration-500">
                     <a 
                         href="https://github.com/HaarisRmnyr/Automated-Risk-Detection-and-Remediation-Project" 
                         target="_blank" 
-                        rel="noopener noreferrer"
                         className="block"
                     >
                         <img 
@@ -23,10 +22,10 @@ function Projects() {
                             className="w-full h-auto rounded-md" 
                         />
                         <div className="mt-4 text-center">
-                            <h3 className="text-lg font-semibold text-gray-800">
+                            <h3 className="text-lg font-semibold text-white">
                                 Automation Risk Assessment and Remediation
                             </h3>
-                            <p className="mt-2 text-sm text-gray-600">
+                            <p className="mt-2 text-sm text-gray-300">
                                 This project is a Python script designed to automate the process of scanning a target virtual machine (VM) for common vulnerabilities and misconfigurations...
                             </p>
                         </div>
@@ -34,11 +33,10 @@ function Projects() {
                 </div>
 
                 {/* Project 2 */}
-                <div className="w-full md:w-1/3 mb-8 md:mb-0 p-4 bg-white rounded-lg shadow-md">
+                <div className="w-full md:w-1/3 mb-8 md:mb-0 p-4 bg-gray-700 rounded-lg shadow-md hover:scale-105 duration-500">
                     <a 
                         href="https://github.com/HaarisRmnyr/AI-mood-music-gen" 
                         target="_blank" 
-                        rel="noopener noreferrer"
                         className="block"
                     >
                         <img 
@@ -47,21 +45,20 @@ function Projects() {
                             className="w-full h-auto rounded-md" 
                         />
                         <div className="mt-4 text-center">
-                            <h3 className="text-lg font-semibold text-gray-800">
+                            <h3 className="text-lg font-semibold text-white">
                                 MoodSong - AI Mood Music Recommender.
                             </h3>
-                            <p className="mt-2 text-sm text-gray-600">
+                            <p className="mt-2 text-sm text-gray-300">
                                 An interactive, single-page web application that uses React to analyze a user's mood and recommend songs. The app leverages the OpenAI API to interpret...</p>
                         </div>
                     </a>
                 </div>
 
                 {/* Project 3 */}
-                <div className="w-full md:w-1/3 mb-8 md:mb-0 p-4 bg-white rounded-lg shadow-md">
+                <div className="w-full md:w-1/3 mb-8 md:mb-0 p-4 bg-gray-700 rounded-lg shadow-md hover:scale-105 duration-500">
                     <a 
                         href="https://github.com/HaarisRmnyr/Express-Blog-CinemaBlab" 
                         target="_blank" 
-                        rel="noopener noreferrer"
                         className="block"
                     >
                         <img 
@@ -70,10 +67,10 @@ function Projects() {
                             className="w-full h-auto rounded-md" 
                         />
                         <div className="mt-4 text-center">
-                            <h3 className="text-lg font-semibold text-gray-800">
+                            <h3 className="text-lg font-semibold text-white">
                                 CinemaBlab Node Express Blog Page
                             </h3>
-                            <p className="mt-2 text-sm text-gray-600">
+                            <p className="mt-2 text-sm text-gray-300">
                                 CinemaBlab is a full-stack content management system (CMS) that allows users to sign up, sign in, and publish posts about movies...
                             </p>
                         </div>
