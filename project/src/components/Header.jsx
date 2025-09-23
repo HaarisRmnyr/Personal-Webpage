@@ -17,7 +17,7 @@ const Header = () => {
                 <li className='p-12'><a href="#Projects">Projects</a></li>
                 <li className='p-12'><a href="#About">About Me</a></li>
                 <li className='p-12'><a href="#Contact">Contact</a></li>
-                <a className="text-red-700 flex items-center justify-center w-40 h-10 border-2 text-red border-red-700 hover:text-white duration-300 hover:animate-pulse" href="/downloadables/Resume.pdf" download>
+                <a className="text-red-700 flex items-center justify-center w-40 h-10 border-2 text-red border-red-700 hover:text-white duration-300 hover:animate-pulse" href="./downloadables/Resume.pdf" download>
                     
             My Resume
 
@@ -34,7 +34,7 @@ const Header = () => {
                 <li className='p-4 border-b border-gray-600'><a href="#About">About Me</a></li>
                 <li className='p-4 border-b border-gray-600'><a href="#Contact">Contact</a></li>
                 <li className='p-4 border-b border-gray-600'><a href="">Contact</a></li>
-                 <a className="text-red-700 flex items-center justify-center w-40 h-10 border-2 text-red border-red-700 hover:text-white duration-300 hover:animate-pulse" href="/downloadables/Resume.pdf" download>
+                 <a className="text-red-700 flex items-center justify-center w-40 h-10 border-2 text-red border-red-700 hover:text-white duration-300 hover:animate-pulse" href="./downloadables/Resume.pdf" download>
                     
             My Resume
 
