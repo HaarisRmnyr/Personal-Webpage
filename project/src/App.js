@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Hero from './Sections/Hero';
 import Projects from "./Sections/Projects";
 import About from "./Sections/About";
+import Contact from "./Sections/Contact"
 import Footer from "./components/Footer";
 
 
@@ -21,8 +22,9 @@ function App() {
         <About />
       </div>
       <div id="Contact">
-        <Footer />
+        <Contact />
       </div>
+      <Footer />
       </div>
       
   );
