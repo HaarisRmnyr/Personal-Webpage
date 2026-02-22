@@ -10,7 +10,7 @@ function Projects() {
             <div className="flex flex-col md:flex-row md:justify-center md:space-x-8 w-full">
                 
                 {/* Project 1 */}
-                <div className="w-full md:w-1/3 mb-8 md:mb-0 p-4 bg-gray-700 rounded-lg shadow-md hover:scale-105 duration-500">
+                <div className="w-full h-1/2 md:w-1/3 mb-8 md:mb-0 p-4 bg-gray-700 rounded-lg shadow-md hover:scale-105 duration-500">
                     <a 
                         href="https://github.com/HaarisRmnyr/Automated-Risk-Detection-and-Remediation-Project" 
                         target="_blank" 
@@ -25,9 +25,6 @@ function Projects() {
                             <h3 className="text-lg font-semibold text-white">
                                 Automation Risk Assessment and Remediation
                             </h3>
-                            <p className="mt-2 text-sm text-gray-300">
-                                This project is a Python script designed to automate the process of scanning a target virtual machine (VM) for common vulnerabilities and misconfigurations...
-                            </p>
                         </div>
                     </a>
                 </div>
